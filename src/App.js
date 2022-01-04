@@ -1,24 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Chart from './Chart';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="container">
+        <h1>React Chartist</h1>
+        <Chart />
+        <p>Label Plugin:  <a target="_blank" href="https://www.npmjs.com/package/chartist-plugin-axistitle">https://www.npmjs.com/package/chartist-plugin-axistitle</a></p>
+      </div>
+    </>
   );
 }
 
