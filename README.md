@@ -1,4 +1,7 @@
+Sample code for adding labels to *chartist*  using *chartist-plugin-axistitle*.
+
 ![Sample Output](public/sample-chart.png?raw=true "Sample Output")
+
 
 ```
 import React from 'react';
